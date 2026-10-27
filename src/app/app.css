@@ -1,0 +1,10 @@
+.topbar { background: #1f86a5; color: #fff; font-size: 13px; padding: 8px 28px; display: flex; justify-content: space-between; }
+.header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #dfe7eb; }
+.nav { height: 70px; max-width: 1240px; margin: auto; padding: 0 24px; display: flex; align-items: center; gap: 28px; }
+.brand strong { font-size: 17px; color: #1f2933; }
+.brand span { color: #ff861b; font-weight: 800; }
+.navlinks { display: flex; gap: 20px; flex: 1; justify-content: center; }
+.navlinks a { color: #3b4851; font-weight: 650; font-size: 14px; padding: 10px 4px; text-decoration: none; border-bottom: 2px solid transparent; }
+.navlinks a:hover { color: #1f86a5; }
+.navlinks a.active { color: #1f86a5; border-bottom-color: #ff861b; }
+.content { max-width: 1240px; margin: auto; padding: 40px 24px; }
